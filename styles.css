@@ -1,16 +1,48 @@
-.container {
-  margin: 150px 100px;
+:root {
+  --branding-color: #352961;
+  --secondary-color: #774181;
+  --third-color: #e6b2c6;
+  --fourth-color: #f6e5e5;
+  --heading-font-family: "Rubik", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-.row {
-  margin-left: 40px;
+@media (min-width: 600px) {
+  h1 {
+    color: var(--branding-color);
+  }
+  .app-container {
+    margin-top: 30px;
+  }
+
+  h1 {
+    margin-top: 120px;
+  }
 }
+
+@media (max-width: 600px) {
+  h1 {
+    color: var(--branding-color);
+  }
+
+  .row {
+    padding-left: 10px;
+  }
+
+  h1 {
+    margin-top: 50px;
+  }
+}
+
+.navbar-custom {
+  font-family: var(--heading-font-family);
+}
+
 h1 {
   font-size: 30px;
   font-weight: 200;
-  margin-top: 120px;
   margin-bottom: 30px;
-  font-family: "Rubik", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 h2 {
@@ -36,13 +68,15 @@ h2 {
 }
 
 .contact-button:hover {
-  color: black;
-  background: rgb(151, 123, 151);
+  color: var(--fourth-color);
+  background: var(--branding-color);
   font-weight: 400;
 }
 img {
   width: 550px;
   border-radius: 50%;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .social-icon {
@@ -58,5 +92,11 @@ img {
   display: inline-block;
   margin: 0 5px;
   font-size: 25px;
-  color: rgb(151, 123, 151);
+  color: var(--branding-color);
+}
+
+.projects {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+  opacity: 0.5;
 }
