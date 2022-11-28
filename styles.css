@@ -10,6 +10,7 @@ h1 {
   font-weight: 200;
   margin-top: 120px;
   margin-bottom: 30px;
+  font-family: "Rubik", sans-serif;
 }
 
 h2 {
@@ -17,6 +18,7 @@ h2 {
   font-weight: 500;
   margin-bottom: 50px;
   padding-right: 30px;
+  font-family: "Rubik", sans-serif;
 }
 
 .contact-button {
@@ -30,6 +32,7 @@ h2 {
   font-weight: 400;
   transition: all 150ms ease-in-out;
   vertical-align: middle;
+  font-family: "Rubik", sans-serif;
 }
 
 .contact-button:hover {
