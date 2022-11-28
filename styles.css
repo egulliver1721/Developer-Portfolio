@@ -38,19 +38,27 @@
   font-family: var(--heading-font-family);
 }
 
-h1 {
+.header-text {
   font-size: 30px;
   font-weight: 200;
   margin-bottom: 30px;
   font-family: "poppins", sans-serif;
 }
 
-h2 {
+.larger-text {
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 50px;
   padding-right: 30px;
   font-family: "Rubik", sans-serif;
+}
+
+.larger-header-text {
+  font-size: 60px;
+}
+
+.normal-text {
+  font-size: 15px;
 }
 
 .contact-button {
@@ -72,7 +80,8 @@ h2 {
   background: var(--branding-color);
   font-weight: 400;
 }
-img {
+
+.hero-picture {
   width: 550px;
   border-radius: 50%;
   text-align: center;
@@ -99,4 +108,27 @@ img {
   font-size: 20px;
   font-family: var(--default-font-family);
   opacity: 0.5;
+  margin-top: 120px;
+}
+
+.skill-button {
+  padding: 10px 20px;
+  background: var(--secondary-color);
+  margin-left: 50px;
+  color: white;
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+}
+
+.skill-button:hover {
+  background: var(--fourth-color);
+  color: var(--branding-color);
+  padding: 8px 18px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.project-image {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
