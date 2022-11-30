@@ -7,31 +7,54 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-@media (min-width: 600px) {
+/* screen resolution */
+@media (min-width: 1000px) {
   h1 {
-    color: var(--branding-color);
-  }
-  .app-container {
-    margin-top: 30px;
+    color: black;
   }
 
-  h1 {
-    margin-top: 120px;
+  .hero-info {
+    margin: 0px 60px 0 50px;
+  }
+
+  .hero-margin {
+    margin-top: 200px;
+  }
+
+  .hero-img-margin {
+    margin-top: 150px;
+    display: block;
+    text-align: center;
+    padding-left: 50px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   h1 {
-    color: var(--branding-color);
+    color: black;
   }
 
-  .row {
-    padding-left: 10px;
+  .hero-info {
+    margin: 0px 60px 0 60px;
   }
 
-  h1 {
-    margin-top: 50px;
+  .hero-margin {
+    margin-top: 120px;
   }
+
+  .hero-img-margin {
+    margin: 60px auto;
+    max-width: 500px;
+    display: block;
+    text-align: center;
+    display: none;
+  }
+}
+
+/* hero page */
+
+.hero {
+  background-color: rgba(182, 176, 176, 0.317);
 }
 
 .navbar-custom {
@@ -85,7 +108,6 @@
   width: 550px;
   border-radius: 50%;
   text-align: center;
-  padding-top: 50px;
 }
 
 .social-icon {
@@ -104,11 +126,21 @@
   color: var(--branding-color);
 }
 
+.arrow {
+  padding-bottom: 50px;
+}
+
+/* project page */
 .projects {
   font-size: 20px;
   font-family: var(--default-font-family);
   opacity: 0.5;
   margin-top: 120px;
+}
+
+.project-column {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .skill-button {
@@ -131,4 +163,27 @@
 
 .project-image {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.project-page {
+  margin-top: 100px;
+}
+
+p .arrow {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-top: 70px;
+}
+
+.project-heading {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bg-gulliver {
+  background-color: #ffffff;
 }

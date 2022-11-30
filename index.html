@@ -26,10 +26,12 @@
     <!--Navbar-->
     <!--Boostrap container-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-gulliver shadow-sm"
+    >
       <a class="navbar-brand ms-4 navbar-custom" href="/">Em Gulliver</a>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler me-2"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavAltMarkup"
@@ -50,10 +52,10 @@
       </div>
     </nav>
     <!--Navbar-->
-    <div class="container">
-      <div class="app-container">
+    <div class="hero">
+      <div class="hero-info">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-lg-6 hero-margin">
             <h1 class="header-text">Hey, I'm Em Gulliver</h1>
             <h2 class="larger-text">
               I love to build websites and bring prototypes to life.
@@ -70,13 +72,56 @@
               ><i class="fa-brands fa-linkedin"></i
             ></a>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6 hero-img-margin">
             <img class="img-fluid hero-picture" src="images/Emily.jpg" alt="" />
           </div>
         </div>
+
+        <p><i class="fa-solid fa-arrow-down-long arrow"></i></p>
       </div>
-      <!--app-container-->
     </div>
-    <!--Boostrap container-->
+    <div class="container project-background">
+      <p class="project-heading larger-text">Projects</p>
+
+      <div class="row project-page text-center mb-5 mt-5">
+        <div class="col-md-4 project-column">
+          <img
+            class="img-fluid project-image rounded"
+            src="/images/Weatherapp.jpg"
+            alt=""
+          />
+          <h4 class="mt-4">Weather App</h4>
+          <p class="">
+            Built using HTML, CSS, JavaScript. API calling current weather data
+            including temperature and associated icons.
+          </p>
+        </div>
+        <div class="col-md-4 project-column">
+          <img
+            class="img-fluid project-image rounded"
+            src="/images/worldclock.jpg"
+            alt="test"
+          />
+          <h4 class="mt-4">World Clock App</h4>
+          <p class="">
+            Built using HTML, CSS, JavaScript. API calling current weather data
+            including temperature and associated icons.
+          </p>
+        </div>
+        <div class="col-md-4 project-column">
+          <img
+            class="img-fluid project-image rounded"
+            src="/images/worldclock.jpg"
+            alt="test"
+          />
+          <h4 class="mt-4">Next App</h4>
+          <p class="">
+            Built using HTML, CSS, JavaScript. API calling current weather data
+            including temperature and associated icons.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- projects container-->
   </body>
 </html>
