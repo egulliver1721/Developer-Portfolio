@@ -3,6 +3,7 @@
   --secondary-color: #973fa7;
   --third-color: #e6b2c6;
   --fourth-color: #f6e5e5;
+  --fifth-color: rgba(182, 176, 176, 0.317);
   --heading-font-family: "Rubik", sans-serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -186,27 +187,18 @@ nav li.active a {
   margin-top: 120px;
 }
 
+.project-content h2 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 54px;
+  font-family: var(--default-font-family);
+}
+
 .project-column {
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.skill-button {
-  padding: 10px 20px;
-  background: var(--secondary-color);
-  margin-left: 50px;
-  color: white;
-  border-radius: 10px;
-  transition: all 150ms ease-in-out;
-  cursor: pointer;
-}
-
-.skill-button:hover {
-  background: var(--fourth-color);
-  color: var(--branding-color);
-  padding: 8px 18px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .project-image {
@@ -223,13 +215,6 @@ p .arrow {
   margin: 0 auto;
   display: block;
   margin-top: 70px;
-}
-
-.project-heading {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 100px;
 }
 
 .bg-gulliver {
@@ -277,4 +262,79 @@ p .arrow {
   margin: 0 auto;
   max-width: 400px;
   border-radius: 20px;
+}
+
+.project-content h2 {
+  font-size: 50px;
+  font-family: var(--default-font-family);
+  font-weight: 600;
+}
+
+.project-content h3 {
+  font-size: 18px;
+  text-align: left;
+}
+
+.project-content h5 {
+  font-size: 40px;
+}
+
+.project-content p {
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--fifth-color);
+  padding: 30px 120px;
+}
+
+.contact-box h5 {
+  font-size: 50px;
+  font-family: var(--default-font-family);
+  font-weight: 400;
+}
+.contact-box h3 {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+  font-weight: 400;
+}
+
+.contact-box a {
+  line-height: 1.5;
+}
+
+.footer-button-div {
+  margin-top: 30px;
+}
+
+.social-icon-2 {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 25px;
+  color: gray;
+  transition: all 150ms ease-in-out;
+  vertical-align: middle;
+}
+
+.social-icon-2:hover {
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 25px;
+  color: var(--branding-color);
+}
+
+.vertical-align {
+  vertical-align: middle;
+}
+
+footer .email {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: black;
 }
