@@ -27,6 +27,10 @@
     text-align: center;
     padding-left: 50px;
   }
+
+  .about-section {
+    padding: 160px 20px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -48,6 +52,11 @@
     display: block;
     text-align: center;
     display: none;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 10px;
   }
 }
 
@@ -76,10 +85,6 @@
   font-family: "Rubik", sans-serif;
 }
 
-.larger-header-text {
-  font-size: 60px;
-}
-
 .normal-text {
   font-size: 15px;
 }
@@ -100,7 +105,7 @@
 
 .contact-button:hover {
   color: var(--fourth-color);
-  background: var(--branding-color);
+  background: var(--secondary-color);
   font-weight: 400;
 }
 
@@ -186,4 +191,29 @@ p .arrow {
 
 .bg-gulliver {
   background-color: #ffffff;
+}
+
+/* about page */
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  font-family: var(--default-font-family);
+  font-weight: 600;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+.about-picture {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  border-radius: 20px;
 }
