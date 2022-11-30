@@ -1,6 +1,6 @@
 :root {
   --branding-color: #352961;
-  --secondary-color: #774181;
+  --secondary-color: #973fa7;
   --third-color: #e6b2c6;
   --fourth-color: #f6e5e5;
   --heading-font-family: "Rubik", sans-serif;
@@ -60,6 +60,47 @@
   .content {
     text-align: center;
   }
+}
+
+/* navigation */
+
+.nav-container {
+  margin: 0;
+}
+nav {
+  padding: 15px 0;
+}
+
+.logo {
+  max-width: 60px;
+  max-height: 40px;
+  margin-left: 0;
+  vertical-align: middle;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 15px;
+  font-weight: 400;
+  font-family: var(--heading-font-family);
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
 }
 
 /* hero page */
